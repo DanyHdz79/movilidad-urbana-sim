@@ -1,0 +1,8 @@
+POST https://reto-mov-urbana-interested-otter-mq.eu-gb.mybluemix.net/games HTTP/1.1
+content-type: application/json
+
+{
+}
+
+###
+http://reto-mov-urbana-interested-otter-mq.eu-gb.mybluemix.net/games/554593cd-a699-4e97-90a3-c3189b92be92

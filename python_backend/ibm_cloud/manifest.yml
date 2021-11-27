@@ -1,0 +1,5 @@
+---
+applications:
+ - name: reto-mov-urbana
+   random-route: true
+   memory: 128M
