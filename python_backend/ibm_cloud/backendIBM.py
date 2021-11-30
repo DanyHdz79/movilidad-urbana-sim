@@ -10,7 +10,11 @@ from reto import Car, City, Semaforo
 games = {}
 
 app = Flask(__name__, static_url_path='')
-#port = int(os.getenv('PORT', 5000))
+port=int(os.environ.get('PORT', 8000))
+
+@app.route("/")
+def root():
+    return "ok"
 
 @app.route("/games", methods=["POST"])
 def create():
@@ -38,4 +42,4 @@ def queryStateCars(id):
     return jsonify({"cars": listCars, "tlights": listLights})
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5001)))
+    app.run(host='0.0.0.0', port=port)

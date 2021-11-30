@@ -1,5 +1,5 @@
 ---
 applications:
- - name: reto-mov-urbana
+ - name: reto-mov-urbana-final
    random-route: true
    memory: 128M
