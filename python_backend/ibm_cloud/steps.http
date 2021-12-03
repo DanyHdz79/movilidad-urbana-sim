@@ -1,8 +1,0 @@
-POST https://reto-mov-urbana-final-bright-ratel-aw.eu-gb.mybluemix.net/games HTTP/1.1
-content-type: application/json
-
-{
-}
-
-###
-http://reto-mov-urbana-final-bright-ratel-aw.eu-gb.mybluemix.net/games/912692f0-5526-4c14-8a93-9c21c1d31648

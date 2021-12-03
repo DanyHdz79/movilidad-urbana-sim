@@ -266,8 +266,9 @@ def agent_portrayal(agent):
             portrayal = {"Shape": "rect",  "w": 1, "h": 1, "Filled": "true", "Color": "Green", "Layer": 0}
     return portrayal
 
-grid = CanvasGrid(agent_portrayal, 16, 16, 450, 450)
+if __name__ == '__main__':
+    grid = CanvasGrid(agent_portrayal, 16, 16, 450, 450)
 
-# server = ModularServer(City, [grid], "Reto unu", {})
-# server.port = 8522
-# server.launch()
+    server = ModularServer(City, [grid], "Reto unu", {})
+    server.port = 8522
+    server.launch()
